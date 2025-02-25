@@ -24,6 +24,7 @@ This repository contains a **custom ComfyUI workflow** for **Stable Diffusion v1
 4. Click **"Load Workflow"** and select `project_v1.json`.  
 5. Check the nodes in the workflow and ensure all dependencies (**ControlNet, Real-ESRGAN, etc.**) are installed.  
 6. Click **"Queue Prompt"** to generate an image.
+
 If you haven't installed **ComfyUI**, follow these steps:  
 
 ```bash

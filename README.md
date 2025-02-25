@@ -28,11 +28,13 @@ pip install -r requirements.txt
 
 ---
 
-## **Add Workflow to ComfyUI**
-✅ **Download** **project_v1.json** from this repository.
-✅ **Open ComfyUI** (by running run.bat on Windows or python main.py on Linux/Mac).
-✅ **Drag & Drop** **project_v1.json** into the ComfyUI window.
-✅ Click **"Load Workflow"** and select project_v1.json.
-✅ Check the nodes in the workflow and ensure all dependencies **(ControlNet, Real-ESRGAN, etc.)** are installed.
-✅ Click **"Queue Prompt"** to generate an image.
+### 2️⃣ Add Workflow to ComfyUI  
+
+1. **Download** `project_v1.json` from this repository.  
+2. **Open ComfyUI** (run `run.bat` on Windows or `python main.py` on Linux/Mac).  
+3. **Drag & Drop** `project_v1.json` into the ComfyUI window.  
+4. Click **"Load Workflow"** and select `project_v1.json`.  
+5. Check the nodes in the workflow and ensure all dependencies (**ControlNet, Real-ESRGAN, etc.**) are installed.  
+6. Click **"Queue Prompt"** to generate an image.
+
 ```bash
